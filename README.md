@@ -1,24 +1,30 @@
-# README
+# Toy app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Brief introduction
 
-Things you may want to cover:
+Toy app is simple application, created as part on Microverse Ruby on Rails curriculum. It is written using scaffold generators, which create a large amount of functionality automatically
 
-* Ruby version
+## Configurations
+### From command line:
+```
+cd /path/to/toy_app
 
-* System dependencies
+rails server
 
-* Configuration
+rails db:migrate
 
-* Database creation
+Accessed via localhost:3000
+```
+### To create posts go to the url:
+```
+localhost:3000/microposts
+```
+### To create users go to the url:
+```
+localhost:3000/users
+``` 
 
-* Database initialization
+## Contributors
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Tunde Oretade](https://github.com/tundeiness) &
+[Olga Pelts](https://github.com/pelzolga123)
